@@ -1,0 +1,25 @@
+script.Parent.MouseButton1Click:connect(function()
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Script edited by Efe";
+		Text = "i only edited offset and the hat";
+	})
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Loaded Skate Board";
+		Text = "Credits to Sauce Kid"; 
+	})
+
+	SKATEBOARD_HAT  = "Waist"
+	AUTOCHOOSE = true  
+
+	SPEED            = 32
+	JUMP            = 41
+	ACCELERATION    = 0.4
+	STEERABILITY    = 0.7
+	GRIP            = 0
+
+	OFFSET = CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))  
+	HOLD_OFFSET = CFrame.Angles(math.rad(0),math.rad(90),math.rad(0))
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/sauceskate.lua"))()
+end)
