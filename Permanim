@@ -238,4 +238,3 @@ end)
 	end)
 	-- Camera, Basically making sure your camera redirects to clone humanoid to avoid weird camera movements.
 	workspace:FindFirstChildOfClass("Camera").CameraSubject = Reanim.Humanoid
-end)
