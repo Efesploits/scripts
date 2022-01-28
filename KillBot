@@ -4,7 +4,9 @@ wait(1/60)
 -- A cyborg that got taken over by a virus --
 -- Discord: Nebula the Zorua#6969
 -- Youtube: https://www.youtube.com/channel/UCo9oU9dCw8jnuVLuy4_SATA
+_G.Fling = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
+
 
 --// Initializing \\--
 local S = setmetatable({},{__index = function(s,i) return game:service(i) end})
