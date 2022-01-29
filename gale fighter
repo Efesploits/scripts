@@ -2,7 +2,7 @@
 ---this script converted for efehub
 
 
-	_G.Fling = true
+	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
 	-- its open source so you can always change the link.
 
